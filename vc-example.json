@@ -1,0 +1,25 @@
+{
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential"
+    ],
+    "issuer": {
+      "id": "did:web:veramo.dev"
+    },
+    "issuanceDate": "2010-01-01T19:73:24Z",
+    "credentialSubject": {
+      "id": "did:example:user",
+      "community": {
+        "rank": "rockstar"
+      }
+    },
+    "proof": {
+      "type": "RsaSignature2018",
+      "created": "2017-06-18T21:19:10Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "https://example.edu/issuers/keys/1",
+      "jws": "3jhadajsg313767a6sd5615273afsdfgfsafdgasf35142361jahdhasjy176$#@#!"
+    }
+  }
